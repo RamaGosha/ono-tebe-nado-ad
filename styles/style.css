@@ -147,6 +147,7 @@
 .lots__card-list {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     gap: 25px;
     list-style: none;
     padding: 0;
@@ -156,7 +157,8 @@
 .lots__card-list-item {
     width: 334px;
     min-height: 563px;
-    flex-grow: 1;
+    flex-grow: 0;
+    flex-shrink: 0;
 }
 
 .card-link {
