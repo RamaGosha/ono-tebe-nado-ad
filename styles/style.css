@@ -58,6 +58,8 @@
   justify-self: end;
 }
 
+/* COVER */
+
 .cover {
   position: relative;
   padding: 165px 50px 50px;
@@ -69,10 +71,10 @@
 .cover__title {
   position: relative;
   z-index: 2;
-  font-size: 100px;
+  font-size: 230px;
   font-weight: 700;
-  line-height: 1;
-  letter-spacing: 30px;
+  line-height: 0.9;
+  letter-spacing: 10px;
   text-transform: uppercase;
   color: #fff;
 }
@@ -89,8 +91,8 @@
   text-align: right;
 }
 
-.no-letter-spacing {
-  letter-spacing: 0;
+.letter-spacing-extended {
+  letter-spacing: 30px;
 }
 
 .cover__description {
@@ -120,6 +122,8 @@
   cursor: pointer;
   font-family: inherit;
 }
+
+/* LOTS */
 
 .lots {
   padding: 180px 50px 0;
@@ -199,6 +203,8 @@
   text-decoration: none;
 }
 
+/* ABOUT */
+
 .about {
   display: grid;
   grid-template-columns: 334px 1fr;
@@ -237,6 +243,8 @@
 .about__text p + p {
   margin-top: 24px;
 }
+
+/* FOOTER */
 
 .footer {
   display: grid;
